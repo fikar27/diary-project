@@ -1,9 +1,7 @@
 h1 {
     text-align: center;
     font-size: 70px;
-    font-family: 'Dancing Script', cursive;
-    
-       
+    font-family: 'Dancing Script', cursive;        
 }
 
 .menu {
@@ -65,7 +63,7 @@ div.post button {
 
 .grid-konten {
     display: grid;
-    grid-gap: 120px;
+    grid-column-gap: 150px;
     grid-template-columns: 200px 200px 200px;
     justify-content: center;   
 }
