@@ -1,3 +1,67 @@
 h1 {
-    color: green;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: -20px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.menu div {
+    padding: 10px;
+    /* background-color: black;
+*/             font-size: 12px;
+    color: white;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+div.beranda {
+    background-color: rgb(0, 0, 106);
+}
+
+div.catatan {
+    background-color: brown;
+}
+
+div.puisi {
+    background-color: green;
+}
+
+div.profil {
+    background-color: black;
+}
+
+div.kontak {
+    background-color: black;
+}
+
+div.cari {
+    background-color: black;
+}
+
+.text {
+    background-color: rgb(34, 0, 145);
+    color: white;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
