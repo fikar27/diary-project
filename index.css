@@ -12,17 +12,17 @@ h1 {
     
     
 }
-.menu div {
+.menu {
     padding: 10px;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     border: 2px solid;
     text-align: center;
     border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: burlywood;
-        
+    font-family: monospace;
+    background-color: burlywood;       
 }
+
 
 /* div.beranda {
     background-color: rgb(0, 0, 106);
@@ -48,12 +48,56 @@ div.cari {
     background-color: black;
 } */
 
-.text {
+/* .text {
     padding-top: 10px;
     margin-bottom: 10px;
     margin-top: -40px;
     font-family: 'Courier New', Courier, monospace;
-    width: 700px;
-   
+    text-align: center;
+} */
 
+div.post button {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px; 
+    border-radius: 20px;
+}
+
+.grid-konten {
+    display: grid;
+    grid-gap: 120px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;   
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -30px;
+   
+}
+
+.beranda {
+    padding: 5px;
+}
+
+.catatan {
+    padding: 5px;
+}
+
+.puisi {
+    padding: 5px;
+}
+
+.profil {
+    padding: 5px;
+}
+
+.penulis {
+    padding: 5px;
+}
+
+.kontak {
+    padding: 5px;
 }
