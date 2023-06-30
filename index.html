@@ -1,59 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Dear Diary</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <h1>Catatan Ngawur</h1>
-        <div>
-        <p>Kumpulan Tulisan Tanpa Arah Seorang Anak Manusia</p>
-        <!-- <marquee class="text" width="100%" direction="left" height="30px">
-                Kumpulan Tulisan Tanpa Arah Seorang Anak Manusia
-                </marquee> -->
-        </div>
-
-        <nav class="menu">
+<head>
+    <title>Catatan Harian</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
             <ul>
-              <a href="#">BERANDA</a>
-              <a href="#">CATATAN</a>
-              <a href="#">PUISI</a>
-              <a href='#'>PROFIL PENULIS</a>
-              <a href='#'>KONTAK</a>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        
-        <!-- <nav class="menu">
-            <div class="beranda">BERANDA</div>
-            <div class="catatan">CATATAN</div>
-            <div class="puisi">PUISI</div>
-            <div class="profil">PROFIL PENULIS</div>
-            <div class="kontak">KONTAK</div>
-        </nav> -->
+    </header>
+    <h1>Catatan Harian</h1>
+    <div class="diary-entry">
+        <h2 class="entry-title">Hari Ini</h2>
+        <p class="entry-date">30 Juni 2023</p>
+        <p class="entry-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus sapien vel arcu commodo fringilla. Sed convallis risus ut tellus pulvinar lacinia. Proin blandit nulla et hendrerit convallis.</p>
+    </div>
 
-        <div class="grid-konten">
-            <div class="post">
-                <button>1</button>
-            </div>
-            <div class="post">
-                <button>2</button>
-            </div>
-            <div class="post">
-                <button>3</button>
-            </div>
-            <div class="post">
-                <button>4</button>
-            </div>
-            <div class="post">
-                <button>5</button>
-            </div>
-            <div class="post">
-                <button>6</button>
-            </div>
-        
-        </div>       
-    </body>
+    <div class="diary-entry">
+        <h2 class="entry-title">Kemarin</h2>
+        <p class="entry-date">29 Juni 2023</p>
+        <p class="entry-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus sapien vel arcu commodo fringilla. Sed convallis risus ut tellus pulvinar lacinia. Proin blandit nulla et hendrerit convallis.</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
 </html>
